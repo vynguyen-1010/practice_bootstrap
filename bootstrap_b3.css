@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: segoe ui light !important;
 }
 
 /* desktop screen */
@@ -24,6 +25,10 @@
     }
     main .block1 .col-sm-4 a.btn-light{
         border-color: #80808061;
+    }
+    main .block2 img{
+        max-width: 100%;
+        height: auto;
     }
 }
 /* mobile screen */
