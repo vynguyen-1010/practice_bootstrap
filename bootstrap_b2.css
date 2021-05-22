@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section .block1 .col-sm-8{
+    margin: auto;
+}
+
+section .block1 .col-sm-8 .jumbotron .btn2{
+    background-color: white;
+    color: black;
+    border-color: rgb(210, 210, 210);
+}
+
+section .block1 .col-sm-8 .jumbotron .btn2:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+section .block1 .col-sm-8 h3.display-3{
+    font-size: 2.5rem;
+}
+
+main .container-fluid .card-text{
+    font-size: 14px;
+    font-family: segoe ui;
+}
+
+/* desktop screen */
+@media only screen and (min-width: 768px) {
+    main .container-fluid{
+        background-color: #e8e8e842;
+    }
+    footer{
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }   
+}
+/* mobile screen */
+@media only screen and (max-width: 767px) {
+    header .navbar.navbar-dark.bg-dark{
+        justify-content: center;
+    }
+    footer{
+        margin-bottom: 1rem;
+    }
+    
+}
